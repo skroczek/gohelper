@@ -1,7 +1,7 @@
 package boolean
 
 import (
-	"github.com/skroczek/gohelper/pkg/test/assert"
+	"github.com/skroczek/gohelper/test/assert"
 	"testing"
 )
 

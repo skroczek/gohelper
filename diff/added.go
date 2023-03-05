@@ -1,8 +1,8 @@
 package diff
 
 import (
-	"github.com/skroczek/gohelper/pkg/boolean"
-	"github.com/skroczek/gohelper/pkg/interfaces"
+	"github.com/skroczek/gohelper/boolean"
+	"github.com/skroczek/gohelper/interfaces"
 )
 
 func Added[T interfaces.Equaler[T]](a, b []T) (added []T) {

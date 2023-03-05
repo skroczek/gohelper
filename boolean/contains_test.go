@@ -1,7 +1,7 @@
 package boolean
 
 import (
-	"github.com/skroczek/gohelper/pkg/interfaces"
+	"github.com/skroczek/gohelper/interfaces"
 	"testing"
 )
 
