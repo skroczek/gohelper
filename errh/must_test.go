@@ -1,4 +1,4 @@
-package error
+package errh
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package error
+package errh
 
 import (
 	"fmt"
@@ -21,7 +21,7 @@ func TestPanic(t *testing.T) {
 		},
 		{
 			name:  "not nil",
-			args:  args{err: fmt.Errorf("error")},
+			args:  args{err: fmt.Errorf("errh")},
 			panic: true,
 		},
 	}
